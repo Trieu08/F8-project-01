@@ -102,7 +102,7 @@ a {
 .hero-wrap {
     position: relative;
     padding-top: 27px;
-    height: 100vh;
+    height: calc(100vh - 92px);
     background: #E6F0FF;
 }
 
