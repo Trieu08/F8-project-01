@@ -166,7 +166,20 @@ a {
 .trademark {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 70px;
+}
+
+.trademark a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+    background-color: #FFF;
+}
+
+.trademark a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Guides */
